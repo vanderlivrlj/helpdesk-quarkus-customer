@@ -1,4 +1,4 @@
-package org.vanderli.com.helpdesk;
+package org.vanderli.com.helpdesk.helpdesk;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -11,10 +11,10 @@ class ExampleResourceTest {
     @Test
     void testHelloEndpoint() {
         given()
-          .when().get("/hello")
-          .then()
-             .statusCode(200)
-             .body(is("Hello from Quarkus REST"));
+                .when().get("/hello")
+                .then()
+                .statusCode(200)
+                .body(is("Hello from Quarkus REST"));
     }
 
 }
