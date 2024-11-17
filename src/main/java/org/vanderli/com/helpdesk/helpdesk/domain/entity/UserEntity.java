@@ -4,8 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.vanderli.com.helpdesk.domain.enums.PerfilUsuarioEnum;
-import org.vanderli.com.helpdesk.domain.enums.StatusUsuarioEnum;
+import org.vanderli.com.helpdesk.helpdesk.domain.enums.PerfilUsuarioEnum;
+import org.vanderli.com.helpdesk.helpdesk.domain.enums.StatusUsuarioEnum;
 
 @Getter
 @Setter
